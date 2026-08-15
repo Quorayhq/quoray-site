@@ -126,6 +126,31 @@ h1 {
   font-size: 1.3rem;
 }
 
+.app {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+
+.app:first-of-type {
+  margin-top: 2rem;
+  padding-top: 0;
+  border-top: none;
+}
+
+.app h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.3rem;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
 footer {
   border-top: 1px solid var(--border);
   padding: 1.5rem;
