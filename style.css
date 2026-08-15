@@ -151,6 +151,24 @@ h1 {
   color: var(--accent);
 }
 
+main h2 {
+  margin: 2rem 0 0.75rem;
+  font-size: 1.15rem;
+}
+
+main p {
+  margin: 0 0 1rem;
+}
+
+main ul {
+  margin: 0 0 1rem;
+  padding-left: 1.4rem;
+}
+
+main li {
+  margin: 0 0 0.4rem;
+}
+
 footer {
   border-top: 1px solid var(--border);
   padding: 1.5rem;
