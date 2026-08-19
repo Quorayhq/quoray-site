@@ -42,8 +42,17 @@ nav {
 }
 
 nav .brand {
-  font-weight: 700;
   margin-right: auto;
+}
+
+/* Quoray wordmark: deliberately plain (no logo/icon), reuses the
+   site's own font stack and color tokens so it tracks the page's
+   light/dark theme automatically. */
+.quoray-wordmark {
+  font-family: inherit;
+  font-weight: 700;
+  letter-spacing: 0;
+  color: var(--fg);
 }
 
 nav a {
